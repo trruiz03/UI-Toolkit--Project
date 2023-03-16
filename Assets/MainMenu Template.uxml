@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=53eea47ff29cae34b9f33f934e6a36c5&amp;type=3#style" />
+    <ui:VisualElement name="Background" style="align-items: center; justify-content: center; flex-grow: 1; opacity: 1; overflow: visible; visibility: visible;">
+        <ui:VisualElement name="VisualElement" style="background-color: rgba(29, 29, 29, 0.78); height: 688px; width: 1168px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; align-items: center; justify-content: center; flex-grow: 0; border-top-left-radius: 29px; border-bottom-left-radius: 29px; border-top-right-radius: 29px; border-bottom-right-radius: 29px; opacity: 1;">
+            <ui:Label text="Lost Memories" display-tooltip-when-elided="true" style="font-size: 60px; position: absolute; top: 70px; left: auto; opacity: 1;" />
+            <ui:Button text="Continue" display-tooltip-when-elided="true" enable-rich-text="true" name="ContinueButton" class="buttonStyle" style="width: 150px; height: 100px; background-color: rgb(111, 111, 111);" />
+            <ui:Button text="Load Game" display-tooltip-when-elided="true" name="loadButton" class="buttonStyle" style="width: 150px; height: 100px; background-color: rgb(111, 111, 111);" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exitButton" class="buttonStyle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,48 @@
+.buttonStyle {
+    height: 100px;
+    width: 154px;
+    background-color: rgb(111, 111, 111);
+    font-size: 20px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    white-space: nowrap;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+}
+
+.buttonStyle:hover {
+    height: 118px;
+    width: 154px;
+    background-color: rgb(245, 128, 89);
+    font-size: 20px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    white-space: nowrap;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+    color: rgba(255, 166, 129, 255);
+}
+
+.buttonStyle:active {
+    height: 118px;
+    width: 154px;
+    background-color: rgb(250, 163, 37);
+    font-size: 20px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    white-space: nowrap;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+}
